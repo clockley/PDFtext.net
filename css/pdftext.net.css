@@ -28,14 +28,14 @@ html {
 }
 
 #head2ndText {
-    text-align : center;
-    font-weight: bold;
-    font-size  : 1rem;
+    text-align   : center;
+    font-weight  : bold;
+    font-size    : 1rem;
     margin-bottom: .5rem;
 }
 
 .centeredText {
-    text-align: center;
+    text-align   : center;
     margin-bottom: .5rem;
 }
 
@@ -62,4 +62,12 @@ input {
 label {
     margin-bottom: 20px;
     margin-right : 10px;
+}
+
+.requiredNotices {
+    box-sizing: border-box;
+    border-collapse: separate;
+    border-spacing : 10px;
+    margin-left    : auto;
+    margin-right   : auto
 }
