@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/pdftext.net.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap-reboot.css">
+    <script data-main="js/pdftext.net" src="js/require.js"></script>
+    <title>PdfText</title>
+</head>
+
+<body class="container">
+    <p id="headText">PDFText.net</p>
+    <p id="head2ndText">The Free Online PDF Extractor</p>
+    <p class="centeredText">Upload a PDF file to view the extracted text content.</p>
+    <form id="fileInputForm">
+        <label>
+            <input type="button" id="downloadButton" name="downloadButton" value="Save">
+        </label>
+        <label>
+            <input accept=".pdf" id="fileInputElement" type="file" name="fileInputElement" value="fileInput">
+        </label>
+    </form>
+
+    <textarea readonly id="output"></textarea>
+    <footer></footer>
+</body>
+
+</html>

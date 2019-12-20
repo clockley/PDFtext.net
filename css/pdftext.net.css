@@ -1,0 +1,65 @@
+html {
+    margin : 0;
+    padding: 0;
+    width  : 100vw;
+    height : 95vh;
+}
+
+.container {
+    height: 90vh;
+    width : calc(100vw - 100vw *.1);
+    ;
+    display           : grid;
+    grid-template-rows: auto auto auto auto 80% 5%;
+    grid-auto-rows    : auto;
+    grid-auto-flow    : row;
+    margin-left       : auto;
+    margin-right      : auto;
+    margin-top        : 0%;
+    margin-bottom     : 0%;
+
+}
+
+#headText {
+    text-align   : center;
+    font-weight  : bold;
+    font-size    : 2rem;
+    margin-bottom: .0625rem;
+}
+
+#head2ndText {
+    text-align : center;
+    font-weight: bold;
+    font-size  : 1rem;
+    margin-bottom: .5rem;
+}
+
+.centeredText {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+#output {
+    box-sizing: border-box;
+    resize    : none;
+}
+
+form {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+#fileInputElement {
+    text-align: center;
+}
+
+label,
+input {
+    display: block;
+}
+
+label {
+    margin-bottom: 20px;
+    margin-right : 10px;
+}
